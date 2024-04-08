@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Workbench&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css" />
+  </head>
+  <body>
+    <section>
+      <form action="">
+        <header>
+            <img src="logo.png" alt="logo" id="logo">
+            <h1>REGISTRO DE MASCOTA</h1>
+          </header>
+        <label for="">NOMBRE MASCOTA</label>
+        <input
+          type="text"
+          placeholder="nombre de la mascota"
+          size="15"
+          maxlength="15"
+        />
+        <br />
+        <label for="">NOMBRE DUEÑO</label>
+        <input
+          type="text"
+          placeholder="nombre del dueño"
+          size="30"
+          maxlength="30"
+        />
+        <br />
+        <label for="">DIRECCION</label>
+        <input type="text" maxlength="35" size="30" /><br />
+        <label for="">Telefono</label><br />
+        <input type="tel" /><br />
+        <label for="">GENERO</label><br />
+        <input type="radio" name="gen" />macho<br />
+        <input type="radio" name="gen" />hembra <br />
+        <label for="">Especie</label>
+        <select name="Especie" id="Especie">
+          <option value="perro">perro</option>
+          <option value="gato">gato</option>
+          <option value="ave">ave</option>
+          <option value="roedor">roedor</option></select
+        ><br />
+        <label for="">Raza</label><br />
+        <select name="raza" id="raza">
+          RAZA DEL PERR0
+          <option value="chapi">chapi</option>
+          <option value="cooker">cooker</option>
+          <option value="huskie">huskie</option>
+          <option value="pastor aleman">pastor aleman</option></select
+        ><br />
+
+        <label for="">AÑO DE NACIMIENTO</label>
+        <input type="date" />
+        <br />
+        <label>Descripcion de la mascota:</label>
+        <br />
+        <textarea name="description" rows="10" cols="30"> </textarea><br />
+        <label for="">ESTERILIZACION</label><br />
+        <input type="radio" name="ESTERILIZACION" />SI<br />
+        <input type="radio" name="ESTERILIZACION" />NO <br />
+        <br />
+        <label for="">CODIGO DE ESTERILIZACION</label>
+        <input type="password" maxlength="10" size="10" /><br />
+        <input type="submit" value="registro" />
+        <input type="reset" value="limpiar" />
+      </form>
+    </section>
+  </body>
+</html>
